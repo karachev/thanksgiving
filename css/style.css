@@ -16,7 +16,8 @@ body {
   margin-right: 57px;
 }
 
-.container::after {
+.container:after,
+.clearfix:after {
   content: "";
   display: table;
   clear: both;
@@ -63,7 +64,8 @@ h1 {
   background: #fda907;
 }
 
-.about-loren p {
+.about-loren p,
+.about-loren-bottom p {
   width: 543px;
   margin: 0 auto;
 }
@@ -72,4 +74,68 @@ h1 {
   text-align: center;
 }
 
+.news {
+  width: 700px;
+  margin: 0 auto;
+}
 
+.news h2 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.news-item {
+  width: 341px;
+  background: #ffffff;
+  margin-bottom: 18px;
+}
+
+.news-item:nth-child(even) {
+  float: left;
+}
+
+.news-item:nth-child(odd) {
+  float: right;
+}
+
+.news-item a {
+  color: #fda907;
+}
+
+.products {
+  width: 700px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+.products h2 {
+  text-align: center;
+}
+
+.products-item {
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+
+
+.item-left {
+  margin-left: 40px;
+}
+
+.about-loren-bottom {
+  width: 700px;
+  height: 256px;
+  margin: 0 auto;
+  background: url(../img/what-back.jpg);
+  color: #ffffff;
+}
+
+.about-loren-bottom h2 {
+  text-align: center;
+}
+
+.main-footer {
+  background: #af4102;
+}
