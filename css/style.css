@@ -1,6 +1,6 @@
 body {
   width: 800px;
-/*  margin: 0 auto;*/
+  margin: 0 auto; /*------------------------------*/
   background: #c65405;
   font-family: "Arial";
 }
@@ -13,7 +13,7 @@ body {
 
 .main-navigation {
   float: right;
-  margin-right: 57px;
+  margin-right: 50px;
 }
 
 .container:after,
@@ -26,7 +26,10 @@ body {
 .main-navigation li {
   display: inline-block;
   vertical-align: middle;
-  
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 37px;
 }
 
 .index-logo {
@@ -42,7 +45,6 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  
 }
 
 .hello {
@@ -82,7 +84,6 @@ h1 {
   font-size: 14px;
   font-weight: normal;
   line-height: 25px;
-    
 }
 
 .news {
@@ -215,8 +216,6 @@ h1 {
   margin-bottom: 39px;
 }
 
-
-
 .learn-orange {
   background: #fda907;
 }
@@ -230,8 +229,7 @@ h1 {
   position: absolute;
   top: 80px;
   left: 184px;
-  width: 430px;
-  
+  width: 430px;  
 }
 
 .hello p {
@@ -276,12 +274,23 @@ h1 {
 }
 
 .client h3 {
-  
   margin: 8px;
   margin-bottom: 2px;
   font-family: "Arial";
   font-size: 15px;
   line-height: 30px;
   font-weight: bold;
+}
 
+.main-navigation ul {
+  margin-top: 31px;
+}
+
+.main-navigation a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.index-logo {
+    margin-top: 21px; 
 }
