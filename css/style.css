@@ -1,0 +1,75 @@
+
+body {
+  width: 800px;
+/*  margin: 0 auto;*/
+  background: #c65405;
+}
+
+.navigation-logo {
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.main-navigation {
+  float: right;
+  margin-right: 57px;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-navigation li {
+  display: inline-block;
+  vertical-align: middle;
+  
+}
+
+.index-logo {
+  background: url(../img/logo-big1.jpg) no-repeat center;
+  min-height: 318px;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  
+}
+
+.hello {
+  width: 620px;
+  margin: 0 auto;
+}
+
+.main-block {
+  width: 700px;
+  margin: 0 auto;
+  background: #ffffff;
+  
+  margin-top: -22px; /*Хотелось бы избавиться от этого*/
+}
+
+.main-block h2 {
+  text-align: center;
+}
+
+.about-loren {
+  width: 620px;
+  margin: 0 auto;
+  color: #ffffff;
+  background: #fda907;
+}
+
+.about-loren p {
+  width: 543px;
+  margin: 0 auto;
+}
+
+.client h3 {
+  text-align: center;
+}
+
+
