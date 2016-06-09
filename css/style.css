@@ -56,10 +56,15 @@ h1 {
   background: #ffffff;
   
   margin-top: -22px; /*Хотелось бы избавиться от этого*/
+  padding-top: 33px;
 }
 
-.main-block h2 {
+.hello h2 {
   text-align: center;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 25px;
 }
 
 .about-loren {
@@ -71,12 +76,13 @@ h1 {
 
 .about-loren p,
 .about-loren-bottom p {
-  width: 543px;
+  width: 557px;
   margin: 0 auto;
-}
-
-.client h3 {
-  text-align: center;
+  font-family: "Arial";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 25px;
+    
 }
 
 .news {
@@ -204,6 +210,9 @@ h1 {
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
+  margin-top: 15px;
+  margin-left: 239px;
+  margin-bottom: 39px;
 }
 
 
@@ -219,8 +228,60 @@ h1 {
 
 .title {
   position: absolute;
-  top: 100px;
+  top: 80px;
   left: 184px;
   width: 430px;
   
+}
+
+.hello p {
+  font-family: "Arial";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+.about-loren h2 {
+  padding-top: 35px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.client {
+  padding-top: 23px;
+}
+
+.client h2 {
+  font-family: "Arial";
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.client  {
+  text-align: center; 
+}
+
+.client p {
+  width: 610px;
+  margin: 0 auto;
+  padding-bottom: 42px;
+  font-family: "Arial";
+  font-size: 14px;
+  line-height: 25px;
+  
+}
+
+.client h3 {
+  
+  margin: 8px;
+  margin-bottom: 2px;
+  font-family: "Arial";
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: bold;
+
 }
