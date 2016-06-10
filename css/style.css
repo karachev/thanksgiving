@@ -1,8 +1,12 @@
 body {
-  width: 800px;
-  margin: 0 auto; /*------------------------------*/
   background: #c65405;
   font-family: "Arial";
+  margin-bottom: -14px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
 }
 
 .navigation-logo {
@@ -89,17 +93,24 @@ h1 {
 .news {
   width: 700px;
   margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 35px;
 }
 
 .news h2 {
   color: #ffffff;
   text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 900;
 }
 
 .news-item {
-  width: 341px;
+  width: 340px;
   background: #ffffff;
-  margin-bottom: 18px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-radius: 5px;
 }
 
 .news-item:nth-child(even) {
@@ -111,7 +122,12 @@ h1 {
 }
 
 .news-item a {
+  font-family: "Arial";
   color: #fda907;
+  font-weight: bold;
+  line-height: 33px;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 .products {
@@ -121,13 +137,19 @@ h1 {
 }
 
 .products h2 {
+  margin-top: 25px;
+  margin-bottom: 24px;
+  font-family: "Arial";
   text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 30px;
 }
 
 .products-item {
   float: left;
   margin-right: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 21px;
 }
 
 .item-left {
@@ -138,16 +160,23 @@ h1 {
   width: 700px;
   height: 256px;
   margin: 0 auto;
+  margin-top: 30px;
   margin-bottom: 50px;
   background: url(../img/what-back.jpg);
   color: #ffffff;
 }
 
 .about-loren-bottom h2 {
+  padding-top: 37px;
+  font-family: "Arial";
   text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 25px;
 }
 
 .main-footer {
+  width: auto;
   background: #af4102;
 }
 
@@ -191,14 +220,19 @@ h1 {
 }
 
 .email-delivery {
-  width: 500px;
+  width: 510px;
   margin: 0 auto;
-  margin-top: 50px;
-  
+  margin-top: 35px;
+  text-align: center;
   color: #e47519;
 }
 
 .footer-copyright {
+  margin-top: -12px; /**/
+  font-family: "Arial";
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: normal;
   text-align: center;
   color: #e47519;
 }
@@ -218,6 +252,9 @@ h1 {
 
 .learn-orange {
   background: #fda907;
+  margin-top: 20px;
+  margin-left: 280px;
+  cursor: pointer;
 }
 
 .learn-white {
@@ -292,5 +329,62 @@ h1 {
 }
 
 .index-logo {
-    margin-top: 21px; 
+  margin-top: 21px; 
+}
+
+.decoration-white {
+  width: auto;
+  height: 18px;
+  background: #c65405 url(../img/decorate.png) no-repeat center; 
+}
+
+.decoration-brown {
+  width: auto;
+  height: 18px;
+  background: #c65405 url(../img/decorate-brown.jpg) no-repeat center;
+}
+
+.news-description h3 {
+  margin-top: 9px;
+  font-family: "Arial";
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: bold;
+  
+}
+
+.news-description {
+  width: 304px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
+.news-description p {
+  margin-top: -10px;
+  margin-bottom: 3px;
+  font-family: "Arial";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+.white-bottom {
+  margin-top: 483px;
+}
+
+.footer-social a {
+  margin-top: 50px;
+  margin-right: 16px;
+}
+
+.email-delivery p {
+  font-family: "Arial";
+  font-size: 14px;
+  font-weight: normal;;
+  line-height: 25px;
+}
+
+.email-delivery a {
+  color: #ffffff;
+  text-decoration: none;
 }
